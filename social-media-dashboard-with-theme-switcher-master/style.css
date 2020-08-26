@@ -62,26 +62,21 @@ body{
     grid-gap: 1rem;
 }
 
-.grid-1{
-    grid-template-columns:repeat(auto-fit, minmax(150px, 1fr));
-}
-
-.grid-2{
-    grid-template-columns: repeat(auto-fit, minmax(236px, 1fr));
+.grid{
+    grid-template-columns:repeat(auto-fit, minmax(244px, 1fr));
 }
 
 .card, 
 .overview-card{
     background-color: var(--card-bg);
     border-radius: 5px;
+    cursor: pointer;
 }
-
 
 .card{
     padding: 2rem;
     position: relative;
     overflow: hidden;
-    cursor: pointer;
 }
 
 .card::before{
@@ -92,7 +87,6 @@ body{
     top: 0;
     left: 0;
 }
-
 
 .facebook::before{
     background-color: var(--facebook);
@@ -202,7 +196,7 @@ h3{
 }
 
 .shift-up{
-    margin-top: -2rem;
+    margin-top: -5rem;
 }
 
 footer{

@@ -51,7 +51,7 @@ body{
 }
 
 .container{
-    max-width: 1440px;
+    max-width: 1070px;
     padding: 2rem;
     height: auto;
     margin: 0 auto;
@@ -63,7 +63,7 @@ body{
 }
 
 .grid{
-    grid-template-columns:repeat(auto-fit, minmax(244px, 1fr));
+    grid-template-columns:repeat(auto-fit, minmax(215px, 1fr));
 }
 
 .card, 

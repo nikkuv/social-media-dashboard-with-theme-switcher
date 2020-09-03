@@ -22,6 +22,7 @@ html{
     --card-bg: hsl(227, 47%, 96%);
     --text-1: hsl(228, 12%, 44%);
     --text-2: hsl(230, 17%, 14%);
+    --hover-color:hsl(227, 40%, 91%);
 
     --toggle: linear-gradient(45deg, hsl(210, 78%, 56%),hsl(146, 68%, 55%)); 
     
@@ -34,6 +35,7 @@ html[data-theme = "dark"]{
     --card-bg: hsl(228, 28%, 20%);
     --text-1: hsl(228, 34%, 66%);
     --text-2: hsl(0, 0%, 100%);
+    --hover-color:hsl(228, 24%, 22%) ;
 
     --toggle: linear-gradient(45deg, hsl(210, 78%, 56%),hsl(146, 68%, 55%));  
 }
@@ -71,6 +73,11 @@ body{
     background-color: var(--card-bg);
     border-radius: 5px;
     cursor: pointer;
+}
+
+.card:hover,
+.overview-card:hover{
+    background-color: var(--hover-color);
 }
 
 .card{
